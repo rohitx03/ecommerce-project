@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+#navbarSupportedContent ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 30px 10px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#navbarSupportedContent ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-style: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}

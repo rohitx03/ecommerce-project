@@ -1,0 +1,24 @@
+.card-data .card {
+    border-radius: 0;
+    border: none;
+    background: #dcdcdc3d;
+    transition: all 0.3s ease;
+
+}
+
+.card-body{
+    border-bottom: 1px solid;
+}
+
+.card-data .card-img-box img:hover{
+    transition: all 0.9s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cart-button {
+    background: black;
+    color: white;
+    border: 0;
+    width: 100%;
+    border-radius: 0;
+}
