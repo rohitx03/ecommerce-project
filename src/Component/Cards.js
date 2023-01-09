@@ -24,7 +24,7 @@ const Cards=() =>{
                 return(
                   <div className='col-lg-4 col-md-6 col-sm-12 col-xs-12' style={{padding:'15px'}}>
                   <div className='card-data'>
-                    <div class="card" style={{}}>
+                    <div class="card">
                       <div className='card-img-box' style={{overflow:'hidden'}}>
                         <a href='/'>
                       <img src={element.imgdata} class="card-img-top img-fluid" alt="card-img"

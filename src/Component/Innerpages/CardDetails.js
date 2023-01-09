@@ -51,7 +51,7 @@ const CardDetails = () => {
               data.map((ele)=>{
                 return(
                   <>
-                                       <div className='details-img' style={{width:'50%'}}>
+                      <div className='details-img' style={{width:'50%'}}>
                       <img className='img-fluid' src={ele.imgdata} style={{width:'100%',height:"100%"}} alt='details-img'></img>
                     </div>
                     <div className='details-content text-align-center p-5  ' style={{width:'50%'}}>
