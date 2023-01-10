@@ -13,12 +13,19 @@
     text-decoration: none;
 }
 #navbarSupportedContent ul li a:hover{
-    color: rgb(0, 0, 0);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    /* background-color: white; */
 }
 .navbar-brand{
     text-decoration: none;
     font-style: 17px;
     text-transform: uppercase;
     font-weight: 600;
+}
+#logo{
+    text-decoration: none;
+    font-style: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
 }

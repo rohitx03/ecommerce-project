@@ -1,0 +1,132 @@
+.contact-banner {
+    /* background-image: url(https://wallpaperaccess.com/full/210908.jpg); */
+    width: 100%;
+    background-size: cover;
+    padding: 100px 0 100px 0;
+    background-repeat: no-repeat;
+    /* box-shadow: inset 50px 50px 100px 100px rgb(0 0 0 / 68%); */
+    background-attachment: fixed;
+    object-fit: cover;
+}
+.contact-banner h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'barlow',sans-serif;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+.input-box input.text {
+    width: 46%;
+    padding: 6px 10px;
+    border: 1px solid #00000026;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: 'Barlow';
+}
+h2.form-heading {
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0e132a;
+}
+.social-info .social-heading{
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e132a;
+    margin-bottom: 20px;
+}
+p.heading-para {
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact-information .info-heading{
+    font-family: 'barlow',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e132a  ;
+    margin-bottom: 20px;
+}
+.input-box textarea.text-area {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #00000026;
+    font-family: 'Barlow';
+}
+.input-box button.btn {
+    padding: 10px 29px;
+    background: black;
+    color: white;
+    font-family: barlow;
+    width: 96%;
+    border-radius: 0;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.input-box button.btn:hover {
+    background: rgb(0, 217, 255);
+    color: rgb(0, 0, 0);
+}
+
+.contact-information li {
+    list-style: none;
+    margin: 10px 0;
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-weight: 600;
+}
+.contact-information li a {
+    font-family: 'Barlow';
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    top: 0;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.contact-information li a:hover{
+    top: -4px;
+    color: rgb(0, 217, 255);
+}
+.social-info ul li {
+    list-style: none;
+}
+.social-info ul li a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    top: 0;
+    font-weight: 600;
+    /* top: 0; */
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.social-info ul li a:hover{
+    top: -3px;
+    color: rgb(0, 217, 255);
+}
+
+
+
+/* ============Start Media Query============= */
+@media (max-width:1200px){
+}
+@media (max-width:992px){
+}
+
+@media (max-width:768px){
+    .contact-content-box{
+        margin-top: 25px;
+    }
+}
+@media (max-width:575px){
+
+}
+@media (max-width:768px){
+
+}
